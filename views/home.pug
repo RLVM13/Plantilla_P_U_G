@@ -1,0 +1,17 @@
+//Aunque es un pug, es un HTML porque es una plantilla de Express
+doctype html
+html
+   head
+      title = "Home"
+   body
+   include ./location.pug
+   include ./mission.pug
+   include ./contact.pug
+   
+      p.greetings#people Hello World!, este es el Home
+      ul
+        li Patatas
+        li Pescado 
+        li Naranjas
+        
+   include ./about.pug
